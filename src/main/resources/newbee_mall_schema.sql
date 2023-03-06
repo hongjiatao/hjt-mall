@@ -8,8 +8,8 @@ SET FOREIGN_KEY_CHECKS = 0;
 -- ----------------------------
 -- author 13
 -- qq交流群 796794009
--- email 2449207463@qq.com
--- link https://github.com/newbee-ltd
+-- email 2
+-- link 2
 -- Table structure for tb_newbee_mall_admin_user
 -- ----------------------------
 DROP TABLE IF EXISTS `tb_newbee_mall_admin_user`;
@@ -25,8 +25,8 @@ CREATE TABLE `tb_newbee_mall_admin_user`  (
 -- ----------------------------
 -- author 13
 -- qq交流群 796794009
--- email 2449207463@qq.com
--- link https://github.com/newbee-ltd
+-- email 2
+-- link 2
 -- Records of tb_newbee_mall_admin_user
 -- ----------------------------
 INSERT INTO `tb_newbee_mall_admin_user` VALUES (1, 'admin', 'e10adc3949ba59abbe56e057f20f883e', '十三', 0);
@@ -36,8 +36,8 @@ INSERT INTO `tb_newbee_mall_admin_user` VALUES (3, 'newbee-admin2', 'e10adc3949b
 -- ----------------------------
 -- author 13
 -- qq交流群 796794009
--- email 2449207463@qq.com
--- link https://github.com/newbee-ltd
+-- email 2
+-- link 2
 -- Table structure for tb_newbee_mall_carousel
 -- ----------------------------
 DROP TABLE IF EXISTS `tb_newbee_mall_carousel`;
@@ -57,8 +57,8 @@ CREATE TABLE `tb_newbee_mall_carousel`  (
 -- ----------------------------
 -- author 13
 -- qq交流群 796794009
--- email 2449207463@qq.com
--- link https://github.com/newbee-ltd
+-- email 2
+-- link 2
 -- Records of tb_newbee_mall_carousel
 -- ----------------------------
 INSERT INTO `tb_newbee_mall_carousel` VALUES (2, 'https://newbee-mall.oss-cn-beijing.aliyuncs.com/images/banner1.png', 'https://juejin.im/book/5da2f9d4f265da5b81794d48/section/5da2f9d6f265da5b794f2189', 13, 0, '2019-11-29 00:00:00', 0, '2019-11-29 00:00:00', 0);
@@ -67,8 +67,8 @@ INSERT INTO `tb_newbee_mall_carousel` VALUES (5, 'https://newbee-mall.oss-cn-bei
 -- ----------------------------
 -- author 13
 -- qq交流群 796794009
--- email 2449207463@qq.com
--- link https://github.com/newbee-ltd
+-- email 2
+-- link 2
 -- Table structure for tb_newbee_mall_goods_category
 -- ----------------------------
 DROP TABLE IF EXISTS `tb_newbee_mall_goods_category`;
@@ -89,8 +89,8 @@ CREATE TABLE `tb_newbee_mall_goods_category`  (
 -- ----------------------------
 -- author 13
 -- qq交流群 796794009
--- email 2449207463@qq.com
--- link https://github.com/newbee-ltd
+-- email 2
+-- link 2
 -- Records of tb_newbee_mall_goods_category
 -- ----------------------------
 INSERT INTO `tb_newbee_mall_goods_category` VALUES (15, 1, 0, '家电 数码 手机', 100, 0, '2019-09-11 18:45:40', 0, '2019-09-11 18:45:40', 0);
@@ -189,8 +189,8 @@ INSERT INTO `tb_newbee_mall_goods_category` VALUES (106, 3, 83, '面膜', 0, 0, 
 -- ----------------------------
 -- author 13
 -- qq交流群 796794009
--- email 2449207463@qq.com
--- link https://github.com/newbee-ltd
+-- email 2
+-- link 2
 -- Table structure for tb_newbee_mall_goods_info
 -- ----------------------------
 DROP TABLE IF EXISTS `tb_newbee_mall_goods_info`;
@@ -217,8 +217,8 @@ CREATE TABLE `tb_newbee_mall_goods_info`  (
 -- ----------------------------
 -- author 13
 -- qq交流群 796794009
--- email 2449207463@qq.com
--- link https://github.com/newbee-ltd
+-- email 2
+-- link 2
 -- Records of tb_newbee_mall_goods_info
 -- ----------------------------
 INSERT INTO `tb_newbee_mall_goods_info` (`goods_id`, `goods_name`, `goods_intro`, `goods_category_id`, `goods_cover_img`, `goods_carousel`, `goods_detail_content`, `original_price`, `selling_price`, `stock_num`, `tag`, `goods_sell_status`, `create_user`, `create_time`, `update_user`, `update_time`)
@@ -802,8 +802,8 @@ VALUES
 -- ----------------------------
 -- author 13
 -- qq交流群 796794009
--- email 2449207463@qq.com
--- link https://github.com/newbee-ltd
+-- email 2
+-- link 2
 -- Table structure for tb_newbee_mall_index_config
 -- ----------------------------
 DROP TABLE IF EXISTS `tb_newbee_mall_index_config`;
@@ -825,8 +825,8 @@ CREATE TABLE `tb_newbee_mall_index_config`  (
 -- ----------------------------
 -- author 13
 -- qq交流群 796794009
--- email 2449207463@qq.com
--- link https://github.com/newbee-ltd
+-- email 2
+-- link 2
 -- Records of tb_newbee_mall_index_config
 -- ----------------------------
 INSERT INTO `tb_newbee_mall_index_config` VALUES (1, '热销商品 iPhone XR', 3, 10284, '##', 10, 0, '2019-09-18 17:04:56', 0, '2019-09-18 17:04:56', 0);
@@ -857,8 +857,8 @@ INSERT INTO `tb_newbee_mall_index_config` VALUES (24, '华为 Mate 30 Pro', 5, 1
 -- ----------------------------
 -- author 13
 -- qq交流群 796794009
--- email 2449207463@qq.com
--- link https://github.com/newbee-ltd
+-- email 2
+-- link 2
 -- Table structure for tb_newbee_mall_order
 -- ----------------------------
 DROP TABLE IF EXISTS `tb_newbee_mall_order`;
@@ -884,8 +884,8 @@ CREATE TABLE `tb_newbee_mall_order`  (
 -- ----------------------------
 -- author 13
 -- qq交流群 796794009
--- email 2449207463@qq.com
--- link https://github.com/newbee-ltd
+-- email 2
+-- link 2
 -- Records of tb_newbee_mall_order
 -- ----------------------------
 INSERT INTO `tb_newbee_mall_order` VALUES (1, '15688187285093508', 1, 2492, 1, 2, '2019-09-18 23:00:18', -1, '', '', '', 'xafsdufhpwe', 0, '2019-09-18 22:53:07', '2019-09-18 22:55:32');
@@ -912,8 +912,8 @@ INSERT INTO `tb_newbee_mall_order` VALUES (20, '15702847670935185', 6, 3999, 1, 
 -- ----------------------------
 -- author 13
 -- qq交流群 796794009
--- email 2449207463@qq.com
--- link https://github.com/newbee-ltd
+-- email 2
+-- link 2
 -- Table structure for tb_newbee_mall_order_item
 -- ----------------------------
 DROP TABLE IF EXISTS `tb_newbee_mall_order_item`;
@@ -932,8 +932,8 @@ CREATE TABLE `tb_newbee_mall_order_item`  (
 -- ----------------------------
 -- author 13
 -- qq交流群 796794009
--- email 2449207463@qq.com
--- link https://github.com/newbee-ltd
+-- email 2
+-- link 2
 -- Records of tb_newbee_mall_order_item
 -- ----------------------------
 INSERT INTO `tb_newbee_mall_order_item` VALUES (1, 1, 10180, 'Apple AirPods 配充电盒', '/goods-img/64768a8d-0664-4b29-88c9-2626578ffbd1.jpg', 1246, 2, '2019-09-18 22:53:07');
@@ -974,8 +974,8 @@ INSERT INTO `tb_newbee_mall_order_item` VALUES (34, 20, 10895, 'HUAWEI Mate 30 4
 -- ----------------------------
 -- author 13
 -- qq交流群 796794009
--- email 2449207463@qq.com
--- link https://github.com/newbee-ltd
+-- email 2
+-- link 2
 -- Table structure for tb_newbee_mall_shopping_cart_item
 -- ----------------------------
 DROP TABLE IF EXISTS `tb_newbee_mall_shopping_cart_item`;
@@ -993,8 +993,8 @@ CREATE TABLE `tb_newbee_mall_shopping_cart_item`  (
 -- ----------------------------
 -- author 13
 -- qq交流群 796794009
--- email 2449207463@qq.com
--- link https://github.com/newbee-ltd
+-- email 2
+-- link 2
 -- Table structure for tb_newbee_mall_user
 -- ----------------------------
 DROP TABLE IF EXISTS `tb_newbee_mall_user`;
@@ -1014,8 +1014,8 @@ CREATE TABLE `tb_newbee_mall_user`  (
 -- ----------------------------
 -- author 13
 -- qq交流群 796794009
--- email 2449207463@qq.com
--- link https://github.com/newbee-ltd
+-- email 2
+-- link 2
 -- Records of tb_newbee_mall_user
 -- ----------------------------
 INSERT INTO `tb_newbee_mall_user` VALUES (1, '十三', '13700002703', 'e10adc3949ba59abbe56e057f20f883e', '我不怕千万人阻挡，只怕自己投降', '杭州市西湖区xx小区x幢419 十三 137xxxx2703', 0, 0, '2019-09-22 08:44:57');
