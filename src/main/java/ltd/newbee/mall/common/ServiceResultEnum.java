@@ -37,7 +37,7 @@ public enum ServiceResultEnum {
 
     GOODS_CATEGORY_ERROR("分类数据异常！"),
 
-    SAME_GOODS_EXIST("已存在相同的餐品信息！"),
+    SAME_GOODS_EXIST("已存在相同的商品信息！"),
 
     GOODS_NOT_EXIST("商品不存在！"),
 
