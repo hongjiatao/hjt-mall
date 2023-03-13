@@ -3,7 +3,7 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head th:fragment="head-fragment(title,path)">
     <meta charset="UTF-8">
-    <title>珠宝首饰商城</title>
+    <title>助农电商平台前台</title>
     <link rel="stylesheet" th:href="@{/mall/css/swiper-bundle.min.css}">
     <link rel="stylesheet" th:href="@{/mall/css/iconfont.css}">
     <link rel="stylesheet" th:href="@{/mall/css/common.css}">
@@ -15,22 +15,23 @@
 </head>
 <nav id="nav" th:fragment="nav-fragment">
     <div class="banner_x center">
-<!--        <a th:href="@{/index}" class="logo"><h1>珠宝首饰商城</h1></a>-->
+<!--        <a th:href="@{/index}" class="logo"><h1>助农电商平台前台</h1></a>-->
         <div class="fr">
+            <p>商品搜索：</p>
             <div class="search">
                 <input class="text" type="text" id="keyword" autocomplete="off">
                 <div class="search_hot">
                 </div>
             </div>
-            <div class="button iconfont icon-search" onclick="search()"></div>
+            <div class="button iconfont icon-search" onclick="search()">搜索</div>
         </div>
     </div>
 </nav>
 <header id="header" th:fragment="header-fragment">
     <div class="center">
         <ul class="fl">
-            <li><a th:href="@{/index}">珠宝首饰商城系统</a></li>
-            <li><a th:href="@{/admin}">后台管理系统</a></li>
+            <li><a th:href="@{/index}">助农电商平台前台</a></li>
+            <li><a th:href="@{/admin}">助农电商平台后台管理系统</a></li>
 
         </ul>
         <div class="fr">

@@ -2,18 +2,18 @@
 
 ![Build Status](https://img.shields.io/badge/build-passing-green.svg)
 ![Version 1.0.0](https://img.shields.io/badge/version-1.0.0-yellow.svg)
-[![License](https://img.shields.io/badge/license-GPL3.0-blue.svg)](https://github.com/newbee-ltd/newbee-mall/blob/master/LICENSE)
+[![License](https://img.shields.io/badge/license-GPL3.0-blue.svg)](/newbee-mall/blob/master/LICENSE)
 
-newbee-mall 项目是一套电商系统，包括 newbee-mall 商城系统及 newbee-mall-admin 商城后台管理系统，基于 Spring Boot 及相关技术栈开发。 前台商城系统包含首页门户、商品分类、新品上线、首页轮播、商品推荐、商品搜索、商品展示、购物车、订单结算、订单流程、个人订单管理、会员中心、帮助中心等模块。 后台管理系统包含数据面板、轮播图管理、商品管理、订单管理、会员管理、分类管理、设置等模块。
+newbee-mall 项目是一套电商系统，包括 newbee-mall 商城系统及 newbee-mall-admin 商城后台管理系统，基于 Spring Boot 及相关技术栈开发。 前台商城系统包含首页门户、商品分类、新品上线、首页轮播、商品推荐、商品搜索、商品展示、购物车、订单结算、订单流程、个人订单管理、会员中心、帮助中心等模块。 后台管理系统包含数据面板、轮播图管理、商品管理、订单管理、用户管理、分类管理、设置等模块。
 
 当前分支的 Spring Boot 版本为 2.7.5，想要学习和使用其它版本可以直接点击下方的分支名称跳转至对应的仓库分支中。
 
 | 分支名称                                                    | Spring Boot Version |
 | ------------------------------------------------------------ | ------------------- |
-| [spring-boot-2.3.7](https://github.com/newbee-ltd/newbee-mall/tree/spring-boot-2.3.7) | 2.3.7-RELEASE       |
-| [spring-boot-2.6.x](https://github.com/newbee-ltd/newbee-mall/tree/spring-boot-2.6.x) | 2.6.3               |
-| [main](https://github.com/newbee-ltd/newbee-mall)            | 2.7.5               |
-| [spring-boot-3.x](https://github.com/newbee-ltd/newbee-mall/tree/spring-boot-3.x) | 3.0.1               |
+| [spring-boot-2.3.7](/newbee-mall/tree/spring-boot-2.3.7) | 2.3.7-RELEASE       |
+| [spring-boot-2.6.x](/newbee-mall/tree/spring-boot-2.6.x) | 2.6.3               |
+| [main](/newbee-mall)            | 2.7.5               |
+| [spring-boot-3.x](/newbee-mall/tree/spring-boot-3.x) | 3.0.1               |
 
 新蜂商城线上预览地址：[http://mall.newbee.ltd](http://mall.newbee.ltd?from=github)，账号可自行注册。
 
@@ -33,18 +33,18 @@ newbee-mall 项目是一套电商系统，包括 newbee-mall 商城系统及 new
 
 ## newbee-mall （新蜂商城）系列项目概览
 
-![newbee-mall-course-2022](https://github.com/newbee-ltd/newbee-mall-cloud/raw/main/static-files/newbee-mall-course-2022.png)
+![newbee-mall-course-2022](/newbee-mall-cloud/raw/main/static-files/newbee-mall-course-2022.png)
 
 | 项目名称             | 仓库地址                                                     | 备注                                                         |
 | :------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| newbee-mall          | [newbee-mall in GitHub](https://github.com/newbee-ltd/newbee-mall)<br>[newbee-mall in Gitee](https://gitee.com/newbee-ltd/newbee-mall) | 初始版本、Spring Boot、Thymeleaf、MyBatis、MySQL             |
-| newbee-mall-plus     | [newbee-mall-plus in GitHub](https://github.com/newbee-ltd/newbee-mall-plus)<br/>[newbee-mall-plus in Gitee](https://gitee.com/newbee-ltd/newbee-mall-plus) | 升级版本、优惠券、秒杀、支付、Spring Boot、Thymeleaf、MyBatis、MySQL、Redis |
-| newbee-mall-cloud    | [newbee-mall-cloud in GitHub](https://github.com/newbee-ltd/newbee-mall-cloud)<br/>[newbee-mall-cloud in Gitee](https://gitee.com/newbee-ltd/newbee-mall-cloud) | 微服务版本、分布式事务、Spring Cloud Alibaba、Nacos、Sentinel、OpenFeign、Seata |
-| newbee-mall-api      | [newbee-mall-api in GitHub](https://github.com/newbee-ltd/newbee-mall-api)<br/>[newbee-mall-api in Gitee](https://gitee.com/newbee-ltd/newbee-mall-api) | 前后端分离、Spring Boot、MyBatis、Swagger、MySQL             |
-| newbee-mall-api-go   | [newbee-mall-api-go in GitHub](https://github.com/newbee-ltd/newbee-mall-api-go)<br/>[newbee-mall-api-go in Gitee](https://gitee.com/newbee-ltd/newbee-mall-api-go) | 前后端分离、Go、Gin、MySQL                                   |
-| newbee-mall-vue-app  | [newbee-mall-vue-app in GitHub](https://github.com/newbee-ltd/newbee-mall-vue-app)<br/>[newbee-mall-vue-app in Gitee](https://gitee.com/newbee-ltd/newbee-mall-vue-app) | 前后端分离、Vue2、Vant                                    |
-| newbee-mall-vue3-app | [newbee-mall-vue3-app in GitHub](https://github.com/newbee-ltd/newbee-mall-vue3-app)<br/>[newbee-mall-vue3-app in Gitee](https://gitee.com/newbee-ltd/newbee-mall-vue3-app) | 前后端分离、Vue3、Vue-Router4、Vuex4、Vant3      |
-| vue3-admin           | [vue3-admin in GitHub](https://github.com/newbee-ltd/vue3-admin)<br/>[vue3-admin in Gitee](https://gitee.com/newbee-ltd/vue3-admin) | 前后端分离、Vue3、Element-Plus、Vue-Router4、Vite      |
+| newbee-mall          | [newbee-mall in GitHub](/newbee-mall)<br>[newbee-mall in Gitee](https://gitee.com/newbee-ltd/newbee-mall) | 初始版本、Spring Boot、Thymeleaf、MyBatis、MySQL             |
+| newbee-mall-plus     | [newbee-mall-plus in GitHub](/newbee-mall-plus)<br/>[newbee-mall-plus in Gitee](https://gitee.com/newbee-ltd/newbee-mall-plus) | 升级版本、优惠券、秒杀、支付、Spring Boot、Thymeleaf、MyBatis、MySQL、Redis |
+| newbee-mall-cloud    | [newbee-mall-cloud in GitHub](/newbee-mall-cloud)<br/>[newbee-mall-cloud in Gitee](https://gitee.com/newbee-ltd/newbee-mall-cloud) | 微服务版本、分布式事务、Spring Cloud Alibaba、Nacos、Sentinel、OpenFeign、Seata |
+| newbee-mall-api      | [newbee-mall-api in GitHub](/newbee-mall-api)<br/>[newbee-mall-api in Gitee](https://gitee.com/newbee-ltd/newbee-mall-api) | 前后端分离、Spring Boot、MyBatis、Swagger、MySQL             |
+| newbee-mall-api-go   | [newbee-mall-api-go in GitHub](/newbee-mall-api-go)<br/>[newbee-mall-api-go in Gitee](https://gitee.com/newbee-ltd/newbee-mall-api-go) | 前后端分离、Go、Gin、MySQL                                   |
+| newbee-mall-vue-app  | [newbee-mall-vue-app in GitHub](/newbee-mall-vue-app)<br/>[newbee-mall-vue-app in Gitee](https://gitee.com/newbee-ltd/newbee-mall-vue-app) | 前后端分离、Vue2、Vant                                    |
+| newbee-mall-vue3-app | [newbee-mall-vue3-app in GitHub](/newbee-mall-vue3-app)<br/>[newbee-mall-vue3-app in Gitee](https://gitee.com/newbee-ltd/newbee-mall-vue3-app) | 前后端分离、Vue3、Vue-Router4、Vuex4、Vant3      |
+| vue3-admin           | [vue3-admin in GitHub](/vue3-admin)<br/>[vue3-admin in Gitee](https://gitee.com/newbee-ltd/vue3-admin) | 前后端分离、Vue3、Element-Plus、Vue-Router4、Vite      |
 
 > 更多 Spring Boot 实战项目可以关注十三的另一个代码仓库 [spring-boot-projects](https://github.com/ZHENFENG13/spring-boot-projects)，该仓库中主要是 Spring Boot 的入门学习教程以及一些常用的 Spring Boot 实战项目教程，包括 Spring Boot 使用的各种示例代码，同时也包括一些实战项目的项目源码和效果展示，实战项目包括基本的 web 开发以及目前大家普遍使用的前后端分离实践项目等，后续会根据大家的反馈继续增加一些实战项目源码，摆脱各种 hello world 入门案例的束缚，真正的掌握 Spring Boot 开发。
 
@@ -106,14 +106,14 @@ newbee-mall 项目是一套电商系统，包括 newbee-mall 商城系统及 new
 
 ## 联系作者
 
-> 大家有任何问题或者建议都可以在 [issues](https://github.com/newbee-ltd/newbee-mall/issues) 中反馈给我，我会慢慢完善这个项目。
+> 大家有任何问题或者建议都可以在 [issues](/newbee-mall/issues) 中反馈给我，我会慢慢完善这个项目。
 
-- 我的邮箱：2449207463@qq.com
+- 我的邮箱：
 - QQ技术交流群：791509631 784785001
 
 > newbee-mall 在 GitHub 和国内的码云都创建了代码仓库，如果有人访问 GitHub 比较慢的话，建议在 Gitee 上查看该项目，两个仓库会保持同步更新。
 
-- [newbee-mall in GitHub](https://github.com/newbee-ltd/newbee-mall)
+- [newbee-mall in GitHub](/newbee-mall)
 - [newbee-mall in Gitee](https://gitee.com/newbee-ltd/newbee-mall)
 ![newbee-mall-info](https://newbee-mall.oss-cn-beijing.aliyuncs.com/poster/store/newbee-mall-info-3.png)
 
